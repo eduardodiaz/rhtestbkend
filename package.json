@@ -1,0 +1,23 @@
+{
+    "name": "backend-server",
+    "version": "1.0.0",
+    "description": "servidor backend",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Eduardo Diaz",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "jsonwebtoken": "^8.4.0",
+        "mongoose": "^5.3.2",
+        "mongoose-unique-validator": "^2.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.4"
+    }
+}
